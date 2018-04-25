@@ -1,0 +1,318 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 203, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About VMesh Server"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,10,20,20
+    LTEXT           "VMesh Server",IDC_TITLE,40,10,105,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,146,6,50,16,WS_GROUP
+    LTEXT           "Copyright (C) 2009",IDC_STATIC,40,29,119,8
+END
+
+IDD_VMESHSERVER_DIALOG DIALOGEX 0, 0, 322, 199
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "VMesh Server"
+MENU IDR_MENU
+CLASS "VMesh_Server"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_MOVIELIST,"SysListView32",LVS_REPORT | LVS_EDITLABELS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,308,178
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,1
+ PRODUCTVERSION 2,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040403b6"
+        BEGIN
+            VALUE "FileVersion", "2.0.0.1"
+            VALUE "InternalName", "VMesh Server"
+            VALUE "LegalCopyright", "All rights reserved."
+            VALUE "OriginalFilename", "VMesh Server.exe"
+            VALUE "ProductVersion", "2.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x404, 950
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_VMESHSERVER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 315
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "About VMesh Server(&A)..."
+END
+
+#endif    // Chinese (Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VMESHSERVER_ADDNEWMOVIEDIALOG DIALOGEX 0, 0, 283, 217
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add a new movie"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,75,196,50,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,157,196,50,14
+    LTEXT           "Name:",IDC_STATIC,16,14,22,8
+    EDITTEXT        IDC_NAME,14,24,201,14,ES_AUTOHSCROLL
+    LTEXT           "Path:",IDC_STATIC,15,44,18,8
+    EDITTEXT        IDC_PATH,14,54,208,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BROWSE,230,53,38,15
+    LTEXT           "Port:",IDC_STATIC,229,14,17,8
+    EDITTEXT        IDC_PORT,227,24,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Description:",IDC_STATIC,16,105,39,8
+    EDITTEXT        IDC_DESC,15,115,251,76,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN
+    EDITTEXT        IDC_URL,15,84,251,14,ES_AUTOHSCROLL
+    LTEXT           "URL information:",IDC_STATIC,16,74,54,8
+END
+
+IDD_PLAYLISTDIALOG DIALOGEX 0, 0, 246, 142
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Save as Server Playlist"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Save",IDOK,189,102,50,14
+    PUSHBUTTON      "Close",IDCANCEL,189,121,50,14
+    PUSHBUTTON      "Select All",IDC_SELECTALL,189,29,50,14
+    PUSHBUTTON      "Select None",IDC_SELECTNONE,189,48,50,14
+    LTEXT           "Playlist name:",IDC_STATIC,7,12,45,8
+    EDITTEXT        IDC_LISTNAME,52,9,180,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_MOVIELIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,29,175,106
+END
+
+IDD_PORTCHOOSERDIALOG DIALOGEX 0, 0, 141, 66
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose a port"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,18,45,44,14
+    PUSHBUTTON      "Use Default",IDCANCEL,78,45,44,14
+    PUSHBUTTON      "Find Free Port",IDC_FINDFREEPORTBUTTON,70,24,55,11
+    LTEXT           "Playlist Boardcast Port:",IDC_STATIC,13,12,75,8
+    EDITTEXT        IDC_PORTCTRL,24,23,34,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_VMESHSERVER_ADDNEWMOVIEDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 276
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_PORTCHOOSERDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 134
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)\r\n"
+    "LANGUAGE 4, 1\r\n"
+    "#pragma code_page(950)\r\n"
+    "#include ""res\\VMesh Server.rc2""  // ? Microsoft Visual C++ ??????\r\n"
+    "#include ""afxres.rc""         // ????\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\VMesh Server.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Add Movie",                   ID_OPENFILE_ADDMOVIE
+        MENUITEM "Remove Movie",                ID_OPENFILE_REMOVEMOVIE
+        MENUITEM SEPARATOR
+        MENUITEM "Save as Server Playlist",     ID_FILE_SAVEASSERVERPLAYLIST
+    END
+    MENUITEM "&About",                      ID_ABOUT
+    MENUITEM "&Exit",                       ID_EXIT
+END
+
+IDR_RCLICKMENU MENU 
+BEGIN
+    POPUP "POPUP"
+    BEGIN
+        MENUITEM "Add Movie",                   ID_POPUP_ADDMOVIE
+        MENUITEM "Remove Movie",                ID_POPUP_REMOVEMOVIE
+        MENUITEM SEPARATOR
+        MENUITEM "Copy to Clipboard",           ID_POPUP_COPYTOCLIPBOARD
+        MENUITEM "Save as Configure File",      ID_POPUP_SAVEASCONFFILE
+        MENUITEM SEPARATOR
+        MENUITEM "Save as Server Playlist",     ID_POPUP_SAVEASSERVERPLAYLIST
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE 4, 1
+#pragma code_page(950)
+#include "res\VMesh Server.rc2"  // ?D Microsoft Visual C++ ?s?ˆo1Lao¡Mˆ§¡P?
+#include "afxres.rc"         // ?D¡PC?¡M¢Dˆu
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

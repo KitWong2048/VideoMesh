@@ -1,0 +1,1 @@
+void packetize(const char* input, const char* output, int interval);

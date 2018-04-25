@@ -1,0 +1,178 @@
+|VMesh Core|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|VMesh Server Started
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|Buffer	: Creating...
+|VMesh_Server|Buffer	: Created successfully
+|VMesh_Server|LookUp Segment	: Creating...
+|VMesh_Server|LookUp Segment	: Started successfully
+|VMesh_Server|Publisher	: Start publishing, please wait...
+|VMesh_Server|Publisher	: Checking file existence...
+|VMesh_Server|Publisher	: Processing "D:\My Documents\My Videos\wmv\melissa-500k.aud"	File Size: 423024714
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|Publisher	: Processing "D:\My Documents\My Videos\wmv\melissa-500k.vid"
+|VMesh_Server|Publisher	: Processing "D:\My Documents\My Videos\wmv\melissa-500k.ain"
+|VMesh_Server|Publisher	: Processing "D:\My Documents\My Videos\wmv\melissa-500k.vin"
+|VMesh_Server|Publisher	: 5395 bytes of AppData is loaded
+|VMesh_Server|Publisher	: MediaInfo is created
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|Publisher	: BootstrapStorage is created
+|VMesh_Server|Publisher	: Published successfully
+|VMesh_Server|RequestListener	: Started
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+|VMesh_Server|UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1
+
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+VMesh Server Started
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+Buffer	: Creating...
+Buffer	: Created successfully
+LookUp Segment	: Creating...
+LookUp Segment	: Started successfully
+Publisher	: Start publishing, please wait...
+Publisher	: Checking file existence...
+Publisher	: Processing "C:\WMdownloads\test.aud"	File Size: 25968220
+Publisher	: Processing "C:\WMdownloads\test.vid"
+Publisher	: Processing "C:\WMdownloads\test.ain"
+Publisher	: Processing "C:\WMdownloads\test.vin"
+Publisher	: 5509 bytes of AppData is loaded
+Publisher	: MediaInfo is created
+Publisher	: BootstrapStorage is created
+Publisher	: Published successfully
+RequestListener	: Started
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+RH (252)	: 143.89.230.52:46179 connected
+RH (252)	: R 143.89.230.52:46179 <REQ LOCALNODELIST>
+RH (484)	: 143.89.230.52:46180 connected
+RH (252)	: Closed connection 143.89.230.52:46179
+RH (484)	: Closed connection 143.89.230.52:46180
+RH (368)	: 143.89.230.52:46181 connected
+RH (368)	: R 143.89.230.52:46181 <REQ MEDIAINFO "96edb53e">
+RH (368)	: R 143.89.230.52:46181 <REQ PACKET 0|0>
+UD(mb) 3, DD(mb) 0, UC(kb) 85, DC(kb) 2, P -1, CL -1, HASH 
+
+RH (368)	: R 143.89.230.52:46181 <REQ PACKET 0|1000>
+RH (368)	: R 143.89.230.52:46181 <REQ PACKET 0|2000>
+UD(mb) 156, DD(mb) 0, UC(kb) 24, DC(kb) 146, P -1, CL -1, HASH 
+
+RH (368)	: R 143.89.230.52:46181 <REQ PACKET 0|3000>
+RH (368)	: R 143.89.230.52:46181 <REQ PACKET 0|1000>
+UD(mb) 87, DD(mb) 0, UC(kb) 13, DC(kb) 81, P -1, CL -1, HASH 
+
+UD(mb) 41, DD(mb) 0, UC(kb) 6, DC(kb) 39, P -1, CL -1, HASH 
+
+RH (368)	: R 143.89.230.52:46181 <REQ PACKET 0|4000>
+RH (368)	: R 143.89.230.52:46181 <REQ PACKET 0|2000>
+UD(mb) 59, DD(mb) 0, UC(kb) 9, DC(kb) 55, P -1, CL -1, HASH 
+
+RH (368)	: R 143.89.230.52:46181 <REQ PACKET 0|3000>
+RH (368)	: R 143.89.230.52:46181 <REQ PACKET 0|4000>
+UD(mb) 67, DD(mb) 0, UC(kb) 10, DC(kb) 63, P -1, CL -1, HASH 
+
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+VMesh Server Started
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+Check maximum connection::	1
+Buffer	: Creating...
+Buffer	: Created successfully
+LookUp Segment	: Creating...
+LookUp Segment	: Started successfully
+Publisher	: Start publishing, please wait...
+Publisher	: Checking file existence...
+Publisher	: Processing "C:\Users\jackjunior lam\Desktop\VMesh\VMesh Project\movie\melissa-500k.aud"	File Size: 423024714
+Publisher	: Processing "C:\Users\jackjunior lam\Desktop\VMesh\VMesh Project\movie\melissa-500k.vid"
+Publisher	: Processing "C:\Users\jackjunior lam\Desktop\VMesh\VMesh Project\movie\melissa-500k.ain"
+Publisher	: Processing "C:\Users\jackjunior lam\Desktop\VMesh\VMesh Project\movie\melissa-500k.vin"
+Publisher	: 5395 bytes of AppData is loaded
+Publisher	: MediaInfo is created
+UD(mb) 0, DD(mb) 0, UC(kb) 0, DC(kb) 0, P -1, CL -1, HASH 
+
+Publisher	: BootstrapStorage is created
+Publisher	: Published successfully

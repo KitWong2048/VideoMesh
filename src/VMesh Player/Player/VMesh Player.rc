@@ -1,0 +1,441 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\VMesh Player.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\VMesh Player.ico"
+#endif    // Chinese (Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 231, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About VMesh Player"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,12,11,20,20
+    LTEXT           "VMesh Player v1.1",IDC_ABOUTTITLE,40,9,68,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,173,11,50,16,WS_GROUP
+    LTEXT           "Copyright (C) 2009",IDC_STATIC,40,36,119,8
+    LTEXT           "",IDC_WMPVER,40,20,126,8,SS_NOPREFIX
+END
+
+IDD_MAINDIALOG DIALOGEX 0, 0, 370, 254
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW | WS_EX_NOINHERITLAYOUT
+CAPTION "VMesh Player"
+MENU IDR_MENU
+CLASS "VMesh_Player"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Play",IDC_PLAY,149,233,28,13
+    PUSHBUTTON      "Pause",IDC_PAUSE,221,233,28,13
+    PUSHBUTTON      "Stop",IDC_STOP,185,233,28,13
+    CONTROL         "",IDC_TIME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,7,212,289,15
+    CONTROL         "",IDC_VOLUME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,295,230,68,16
+    CTEXT           "00:00",IDC_SLIDERTIME,281,215,82,8
+    LTEXT           "Untitled",IDC_NAME,7,238,132,8
+    CONTROL         "",IDC_PLAYER,"{6BF52A52-394A-11D3-B153-00C04F79FAA6}",0x0,7,7,356,199
+    LTEXT           "Vol",IDC_VOLLABEL,275,234,10,8
+END
+
+IDD_URLDIALOG DIALOGEX 0, 0, 259, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Open URL"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,136,34,50,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,195,34,50,14
+    LTEXT           "Open",IDC_STATIC,7,16,18,8
+    EDITTEXT        IDC_URL,32,14,217,14,ES_AUTOHSCROLL
+END
+
+IDD_VMESHSETTINGDIALOG DIALOGEX 0, 0, 198, 78
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VMesh Setting"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,41,57,50,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,105,57,50,14
+    LTEXT           "Server:",IDC_STATIC,13,14,25,8
+    EDITTEXT        IDC_SERVER,42,13,134,12,ES_AUTOHSCROLL
+    LTEXT           "Port:",IDC_STATIC,21,35,17,8
+    EDITTEXT        IDC_PORT,42,33,40,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Movie:",IDC_STATIC,110,35,22,8
+    EDITTEXT        IDC_MOVIE,136,33,40,13,ES_CENTER | ES_LOWERCASE | ES_AUTOHSCROLL
+END
+
+IDD_SEVERDIALOG DIALOGEX 0, 0, 214, 137
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Connect to Server"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,174,13,33,14
+    PUSHBUTTON      "Cancel",IDCANCEL,174,34,33,14
+    CONTROL         "",IDC_IPADDRESS,"SysIPAddress32",WS_TABSTOP,16,32,100,12
+    EDITTEXT        IDC_PORT,130,31,27,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "File",IDC_FILESELECTION,"Button",BS_AUTORADIOBUTTON,12,94,27,10
+    CONTROL         "Server",IDC_SERVERSELECTION,"Button",BS_AUTORADIOBUTTON,12,20,37,10
+    LTEXT           "Port",IDC_STATIC,132,21,14,8
+    EDITTEXT        IDC_FILELOCATION,16,107,141,14,ES_AUTOHSCROLL
+    GROUPBOX        "Server Information",IDC_STATIC,7,7,160,72
+    GROUPBOX        "",IDC_STATIC,7,83,159,48
+    PUSHBUTTON      "Browse",IDC_BROWSE,130,94,28,9
+    LTEXT           "Playlist Name",IDC_STATIC,17,51,43,8
+    EDITTEXT        IDC_PLAYLISTNAME,16,60,142,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Save",IDC_SAVEBUTTON,175,63,32,14
+END
+
+IDD_SERVERLISTDIALOG DIALOGEX 0, 0, 243, 150
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Server Playlist"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,193,130,44,12
+    PUSHBUTTON      "Cancel",IDCANCEL,193,114,44,12
+    PUSHBUTTON      "Add",IDC_ADDBUTTON,193,19,44,12
+    PUSHBUTTON      "Move Up",IDC_MOVEUPBUTTON,193,56,44,12
+    PUSHBUTTON      "Move Down",IDC_MOVEDOWNBUTTON,193,72,44,12
+    PUSHBUTTON      "Remove",IDC_REMOVEBUTTON,193,35,44,12
+    CONTROL         "",IDC_SERVERLIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,18,178,125
+    LTEXT           "Playlist",IDC_STATIC,7,6,23,8
+    PUSHBUTTON      "Save",IDC_SAVEBUTTON,193,93,44,12
+END
+
+IDD_MOVIELISTDIALOG DIALOGEX 0, 0, 383, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose a movie"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,228,217,43,14
+    PUSHBUTTON      "Cancel",IDCANCEL,280,217,43,14
+    LISTBOX         IDC_MOVIELIST,7,14,157,109,LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Playlist / Movie",IDC_STATIC,7,3,48,8
+    LTEXT           "",IDC_MOVIETEXT,7,127,157,97
+    CONTROL         "",IDC_IE,"{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,172,14,204,199
+END
+
+IDD_CONFIGPAGE DIALOGEX 0, 0, 210, 116
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configuration"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "Show Debug Console:",IDC_STATIC,12,18,79,8
+    LTEXT           "Number of Segments:\n(for SuperNode)",IDC_STATIC,11,41,81,18
+    COMBOBOX        IDC_COMBO_SHOWCONSOLE,107,15,84,30,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SUPERNODE,107,39,84,30,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "OK",ID_OK,42,94,50,14,WS_GROUP
+    PUSHBUTTON      "Cancel",ID_CANCEL,114,94,50,14
+    LTEXT           "(Effects take place on next movie)",IDC_STATIC,11,81,111,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,1
+ PRODUCTVERSION 2,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "HKUST"
+            VALUE "FileDescription", "VMesh Player"
+            VALUE "FileVersion", "2.0.0.1"
+            VALUE "InternalName", "VMesh Player.exe"
+            VALUE "LegalCopyright", "(c) HKUST.  All rights reserved."
+            VALUE "OriginalFilename", "VMesh Player.exe"
+            VALUE "ProductName", "VMesh Player"
+            VALUE "ProductVersion", "2.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 223
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_MAINDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 246
+    END
+
+    IDD_URLDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_VMESHSETTINGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_SEVERDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_SERVERLISTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_MOVIELISTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+        HORZGUIDE, 38
+    END
+
+    IDD_CONFIGPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MAINDIALOG DLGINIT
+BEGIN
+    IDC_PLAYER, 0x376, 166, 0
+0x0000, 0x0000, 0x0300, 0x0000, 0x0008, 0x0000, 0x0000, 0x0005, 0x0000, 
+0x0000, 0x0000, 0x3ff0, 0x0003, 0x0000, 0x0000, 0x0005, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0003, 0x0001, 0x0000, 
+0x000b, 0xffff, 0x0003, 0x0000, 0x0000, 0x000b, 0xffff, 0x0008, 0x0002, 
+0x0000, 0x0000, 0x0003, 0x0032, 0x0000, 0x000b, 0x0000, 0x0008, 0x000a, 
+0x0000, 0x006e, 0x006f, 0x006e, 0x0065, 0x0000, 0x000b, 0x0000, 0x000b, 
+0x0000, 0x000b, 0xffff, 0x000b, 0xffff, 0x000b, 0x0000, 0x0008, 0x0002, 
+0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 
+0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x000b, 0x0000, 0x3731, 0x0000, 
+0x2162, 0x0000, 
+    0
+END
+
+IDD_MOVIELISTDIALOG DLGINIT
+BEGIN
+    IDC_IE, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x1fa0, 0x0000, 0x2162, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        POPUP "Open Movie"
+        BEGIN
+            MENUITEM "VMesh Config...",             ID_FILE_OPENCONFIGFILE
+            MENUITEM "VMesh Info...",               ID_FILE_OPENVMESH
+            MENUITEM SEPARATOR
+            MENUITEM "Local File",                  ID_FILE_OPENMEDIA
+            MENUITEM "URL",                         ID_FILE_OPENURL
+        END
+        MENUITEM "Open Server Playlist",        ID_FILE_OPENSERVERPLAYLIST
+        MENUITEM SEPARATOR
+        MENUITEM "Configuration",               ID_FILE_CONFIG
+    END
+    POPUP "&Movie"
+    BEGIN
+        MENUITEM "Refresh Playlist",            ID_MOVIE_REFRESHPLAYLIST
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Stretch",                     ID_VIEW_STRETCH
+        MENUITEM "Always on Top",               ID_VIEW_ALWAYSONTOP
+    END
+    MENUITEM "&About",                      ID_ABOUT
+    MENUITEM "&Exit",                       ID_EXIT
+END
+
+IDR_RCLICKMENU MENU 
+BEGIN
+    POPUP "POPUP"
+    BEGIN
+        MENUITEM "Add Playlist",                ID_POPUP_ADDPLAYLIST
+        MENUITEM "Remove Playlist",             ID_POPUP_REMOVEPLAYLIST
+        MENUITEM SEPARATOR
+        MENUITEM "Refresh Playlist",            ID_POPUP_REFRESHPLAYLIST
+        MENUITEM "Save Server Info",            ID_POPUP_SAVESERVERINFO
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "About VMesh Player(&A)..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\VMesh Player.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
