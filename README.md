@@ -20,3 +20,17 @@ Movie list management and playback control
 
 ### centralLookupServer is a P2P tracker server
 which acts as the Bitorrent trackers.
+
+## Requirement
+Boost library 1.46.1
+MFC
+
+## Build
+Open the the solution VMesh.sln with Visual C++ 2009 (Visual studio 2008) and build projects according to follwing  order
+libNode, chord, libasf, VMesh, VMeshController, CentralizedLookupServer, VMeshAPI, VMeshPlayer, Vmeshsever
+
+##How to
+1) Run the CentralizedLookupServer
+2) Run the VMesh Server and publish some videos (support only .ASF format)
+3) Run VMesh Players and subscribe the videos list of VMesh Server.
+
